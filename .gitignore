@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+.venv/
+venv/
+
+# Local-only AI Studio prototype (design reference). Kept out of git on purpose.
+prototype/*
+prototype/README.md
+prototype/.gitkeep
+prompts/*

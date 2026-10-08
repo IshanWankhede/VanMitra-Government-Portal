@@ -1,0 +1,19 @@
+*{box-sizing:border-box}body{margin:0;font-family:Inter,"Noto Sans Devanagari",system-ui,sans-serif;background:var(--background);color:var(--on-surface);font-size:14px;line-height:1.6}
+.shell{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
+.side{background:var(--chrome);color:#F4F7F5;padding:20px 12px}.side h1{font-size:18px;margin:0 8px 24px}
+.side a{display:block;padding:10px 12px;border-radius:12px;color:#AAB8B2;text-decoration:none;margin-bottom:4px}
+.side a.active{background:rgba(255,255,255,.08);color:#FF8D20;font-weight:600}
+.top{background:var(--chrome);color:#F4F7F5;padding:12px 24px;display:flex;justify-content:space-between;align-items:center}
+main{padding:24px;max-width:1440px}h2{font-size:24px;margin:0 0 16px}
+.card{background:var(--surface);border:1px solid var(--outline);border-radius:16px;padding:16px;box-shadow:var(--shadow)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin-bottom:24px}
+.kpi b{display:block;font-size:32px}.muted{color:var(--on-surface-variant);font-size:12px}
+table{width:100%;border-collapse:collapse}th{background:var(--surface-container);text-align:left;padding:10px;font-size:12px}td{padding:10px;border-top:1px solid var(--outline)}
+.btn{background:var(--action);color:#fff;border:0;border-radius:12px;padding:9px 16px;font-weight:600;cursor:pointer;font-size:14px}.btn:hover{background:var(--action-pressed)}
+.btn.sec{background:transparent;color:var(--on-surface);border:1px solid var(--outline)}
+:focus-visible{outline:2px solid var(--action);outline-offset:2px}
+input,select,textarea{background:var(--surface);color:var(--on-surface);border:1px solid var(--outline);border-radius:12px;padding:9px 12px;font:inherit}
+.badge{display:inline-flex;gap:6px;align-items:center;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:600;border:1px solid currentColor}
+.t-success{color:var(--success)}.t-warning{color:#B8860B}.t-error{color:var(--error)}.t-info{color:var(--info)}.t-neutral{color:var(--on-surface-variant)}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:16px}.err{color:var(--error);margin:8px 0}
+.tl{list-style:none;padding:0}.tl li{padding:0 0 14px 22px;border-left:2px solid var(--outline);position:relative}.tl li::before{content:"✓";position:absolute;left:-9px;background:var(--success);color:#fff;border-radius:50%;width:16px;height:16px;font-size:10px;text-align:center}
